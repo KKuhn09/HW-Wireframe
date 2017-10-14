@@ -1,11 +1,11 @@
-/*Styles all of the page*/
+/*Styles for all of the page*/
 *{
 	font-family: "Arial", "Helvetica Nueu", Helvetica, sans-serif;
 	font-size: 18px;
 	text-align: center;
 	background: #777;
 }
-
+/*Styles the header, footer, and nav tags simultaneously*/
 header, footer, nav{
 	background: #ebebeb;
 	width: 960px;
@@ -15,11 +15,11 @@ header, footer, nav{
 	padding-bottom: 40px;
 	color: #777;
 }
-/*Clears left and right fields for floating divs*/
+/*Clears left and right fields*/
 .clear{
 	clear: both;
 }
-
+/*Styles our section tag*/
 section{
 	margin: 10px;
 	padding: 10px;
@@ -30,7 +30,7 @@ section{
 	float: left;
 	color: #777;	
 }
-
+/*Styles our aside tag*/
 aside{
 	margin: 10px;
 	padding: 10px;
@@ -42,29 +42,29 @@ aside{
 	width: 400px;
 	height: 192px;
 }
-
+/*Styles our article tag*/
 article{
 	margin:10px;
 	padding: 10px;
 	color: #ebebeb;
 }
-
+/*Styles our h1 and p tags simultaneously*/
 h1, p{
 	margin: 10px;
 	padding: 10px;
 	background: #ebebeb;
 	color: #777;
 }
-
+/*Styles any tag with the "div1" class*/
 .div1{
 	margin: auto;
 	width: 1000px;
 }
-
+/*Styles any tag with the "div2" class*/
 .div2{
 	margin: auto;
 }
-
+/*Styles any tag with the "center" class*/
 .center {
     margin: auto;
     width: 50%;
